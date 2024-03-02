@@ -1,21 +1,23 @@
-body {
+html, body {
   margin: 0; /* Reset margin */
   padding: 0; /* Reset padding */
+  height: 100%; /* Set height to 100% */
 }
 
 .App-header {
   padding: 5px;
-  background-color: #333;
-  color: white;
+  background-color: #1E88E5;
+  color: #333333;
   text-align: center;
 }
 
 .Body {
+  flex: 1;
   max-width: 100%;
   max-height: 100%;
   padding-top: 60px; /* Add padding-top to create space below the header */
   padding: 20px;
-  background-color: #443e3e;
+  background-color: #F5F5F5;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(30, 202, 70, 0.1);
@@ -25,4 +27,18 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+}
+
+/* Adjust layout for smaller screens (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+  .resource-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+/* Adjust layout for mobile screens */
+@media only screen and (max-width: 480px) {
+  .resource-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 }

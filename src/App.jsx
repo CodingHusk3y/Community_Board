@@ -6,7 +6,7 @@ import ResourceCard from './components/ResourceCard';
 const resources = [
   { id: 1, title: 'A list of Summer 2024 internships', description: 'Summer 2024 Tech Internships by Pitt CSC & Simplify', link: 'https://github.com/SimplifyJobs/Summer2024-Internships' },
   { id: 2, title: 'Zero to Offer', description: 'A series dedicated to accelerating your tech career.', link: 'https://pittcs.wiki/zero-to-offer/' },
-  { id: 3, title: 'Simplify', description: 'Application tool, apply with one click', link: 'https://simplify.jobs/?utm_source=GHList&utm_medium=banner' },
+  { id: 3, title: 'Simplify', description: 'Application tool, fill out application forms with one click', link: 'https://simplify.jobs/?utm_source=GHList&utm_medium=banner' },
   { id: 4, title: 'CodePath', description: ' An organization that provides technical training, guidance and a community to help people start their careers in the tech industry', link: 'https://www.codepath.org/' },
   { id: 5, title: 'LeetCode', description: 'The best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.', link: 'https://leetcode.com/' },
   { id: 6, title: 'Coding Interview University', description: 'To-do list of study topics for becoming a software engineer', link: 'https://github.com/jwasham/coding-interview-university' },
@@ -23,7 +23,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to the Internship Prep Site</h1>
-        <p>This website provides resources for students preparing for internships.</p>
+        <p>This website provides resources for students preparing for internships</p>
       </header>
       <main className='Body'>
         <div className="resource-grid">
